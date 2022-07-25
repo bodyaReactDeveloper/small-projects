@@ -1,0 +1,27 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+
+.app-wrap{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.component{
+    padding: 30px;
+    text-align: center;
+    flex: 1 1 auto;
+}
+
+
+
+/*88888888888888888888888888888888888888888888888888888888888888888888888*/
+
+
+
+
+

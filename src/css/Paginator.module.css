@@ -1,0 +1,91 @@
+
+
+.default{
+    font-weight: bold;
+    margin: 0 5px 0 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(252, 0, 0);
+    cursor: pointer;
+    text-align: center;
+
+    border-radius: 50%;
+    padding: 0 10px;
+    border: 2px red solid;
+}
+.active{
+    font-weight: bold;
+    margin: 0 5px 0 5px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-align: center;
+
+    border-radius: 50%;
+    padding: 0 10px;
+    border: 2px red solid;
+}
+.paginator_wrap{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.paginator_container{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.paginator{
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+/* //////////////////////////////////////// */
+
+.switch {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #363636;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  height: 2.5em;
+  justify-content: center;
+  line-height: 1.5;
+  padding: calc(.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.switch:active {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+
+.switch:focus {
+  border-color: #485fc7;
+  outline: 0;
+}
+
+.switch:hover {
+  border-color: #b5b5b5;
+}
+
+.switch:focus:not(:active) {
+  box-shadow: rgba(72, 95, 199, .25) 0 0 0 .125em;
+}
